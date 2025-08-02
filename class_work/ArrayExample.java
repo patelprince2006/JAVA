@@ -16,7 +16,7 @@ public class ArrayExample{
             System.out.print("Enter Sub 3: ");
             int Sub_3 = Sc.nextInt();
         
-        student s = new student(id,name,Sub_1,Sub_2,Sub_3);
+        Student s = new Student(id,name,Sub_1,Sub_2,Sub_3);
         System.out.println(s);
     }
 }

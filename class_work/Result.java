@@ -4,7 +4,7 @@ interface Exam{
 }
 
 interface Classify{
-   public string Division(int average);
+   public String Division(int average);
 }
 
 class Result implements Exam,Classify{
@@ -17,7 +17,7 @@ class Result implements Exam,Classify{
         }
      }
 
-    public string Division(int average){
+    public String Division(int average){
         if(average>=60){
             return "first";
         }
