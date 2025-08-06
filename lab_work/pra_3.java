@@ -13,7 +13,7 @@ public class pra_3{
          System.out.println(s1.toUpperCase());
          System.out.println(s1.stripIndent());
          
-         Char c=sc.next();
+         char c=sc.next();
          System.out.println(s1.replace(c,"*"));
 
          

@@ -22,5 +22,6 @@ public class string{
            System.out.println(s1.stripTrailing());
         System.out.println(s1.startsWith(s3));
         System.out.println(s1.split(s2));
+        System.out.println(s1);
      }
 }
