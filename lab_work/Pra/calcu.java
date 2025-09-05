@@ -35,7 +35,7 @@ public class calcu{
     public static void main(String[] args) {
 
      calculator c = new calculator();
-     //   try{
+       try{
       Scanner sc = new Scanner(System.in);
       System.out.println("enter a first number :");
       String value1=sc.next();
@@ -63,10 +63,9 @@ public class calcu{
       else if(s.equals("/")){
         c.div(v1, v2);
       }
-    //  }
-    //   catch(Exception: e){
-    //     System.out.println("invalid input");
-    //   }
+     }
+      catch(Exception e){
+        System.out.println("invalid input");
+      }
     }
-
 }
